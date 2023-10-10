@@ -1,0 +1,14 @@
+# matplotlib==3.7.3
+einops==0.2.0
+gdown==4.4.0
+prefetch_generator==1.0.1
+imgaug==0.4.0
+lmdb>=1.0.0
+scikit-image>=0.21.0
+torch==2.1.0
+torchvision==0.16.0
+yaml==6.0.1
+# Fix error: module 'numpy' has no attribute 'bool' when using numpy 1.24.0+
+Pillow==9.5.0
+# Fix error: module 'PIL.Image' has no attribute 'ANTIALIAS'
+numpy==1.23.1
